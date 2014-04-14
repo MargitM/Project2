@@ -1,0 +1,74 @@
+<!doctype html>
+
+<!--
+Project Name: App for Mobile Programming Class
+Creator: Margit Mehne
+Last Modified: 04/05/2014
+Description: /* Flower Shoppe App */
+-->
+
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	
+
+	<meta name="Flower Shoppe"
+	<meta name="author" content="Margit Mehne">
+	
+	<html>
+    <head>
+    <title>Flower Shoppe</title>
+    <link rel="stylesheet" media="screen" href="theme/jqt/theme.css">
+    <script src="jqt/jquery.js"></script>
+    <script src="jqt/jqtouch.js"></script>
+    <script type="text/javascript">
+	//this initializes jqtouch
+        var jQT= $.jQTouch({
+            icon: 'image.png',
+            statusBar: 'black' 
+        });
+    </script>
+      
+    </head>
+    <body>
+        <div id="home">
+           <div class="toolbar">
+                <h1>Flower Shoppe</h1>
+           </div>
+           <ul class="edgetoedge">
+               <li class="arrow"><a href="#flowers">Flowers</a></li>
+               <li class="arrow"><a href="#contactus">Contact Us</a></li>
+           </ul>
+        </div>
+    <div id="flowers">
+      <div class="toolbar">
+               <h1>Flowers</h1>
+               <a class="button back" href="#">Back</a>
+        </div>
+        <p>We deliver fresh flowers to Fleming Island, Middleburg, and Orange Park      </p>
+        <p>Choices are:</p>
+        <ul>
+       	  <li>red roses</li>
+            <li>pink roses</li>
+            <li>yellow roses</li>
+        	<li>hydrangeas</li>
+        	<li>special bouquet of the day</li>
+            <li>special requests</li>
+         </ul>
+    </div>
+    
+        <div id="contactus">
+            <div class="toolbar">
+               <h1>Contact Us</h1>
+               <a class="button back" href="#">Back</a>
+            </div>
+            <p>The Flower Shoppe</p>
+            <p>15 Wild Fern Drive, Fleming Island, FL</p>
+            <p>Flowers@bloom.com</p>
+            <p>800-234-2345</p>
+        </div>
+	
+        
+    </body>
+</html>
